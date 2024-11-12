@@ -1,0 +1,209 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "1965 Canada",
+            "summary": "<Strong> The Canadian people have been dreading this day. </Strong><Br>  <Br>Lester Pearson's Liberals, fresh from regaining power in 1963, have presided over an incredibly eventful Parliament in a time of volatile government. However, tired of governing as a minority and sensing great opportunity, Pearson has decided to drop the Writ and send Canadians to the polls for the <Strong> third time in four years to capture an elusive majority. </Strong> <br> <br> \n\nThe animosity between John Diefenbaker and Lester Pearson is as strong as ever. The old fight is on as this chapter in Ottawa nears its thunderous finale. Meanwhile, Réal Caouette and the Créditistes will try to establish themselves as a permanent presence in Canada's political climate.  Tommy Douglas and the NDP argue that only they can shape Canada into a unified and progressive nation. <br> <br>\n\n",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7eKY6Yx8mgGhxiMRSH2OtMKxtP8oapXR4Ag&s",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://canadashistory.ca/getmedia/f920c119-ece0-4651-bc44-b80b7d57cc57/ExpPolGreatFlagDebate595x396.jpg.aspx?width=595&height=396&ext=.jpg",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "1965 Canada"
+    }
+]
+
+campaignTrail_temp.credits = "Scott Norwood and Icewagner (more credits to come)"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 30,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1001,
+        "fields": {
+            "first_name": "Lester",
+            "last_name": "Pearson",
+            "election": 20,
+            "party": "Liberal Party of Canada",
+            "state": "Algoma East",
+            "priority": 1,
+            "description": "<div style='overflow-y:scroll;height:200px;'> <i> \"The future belongs to those who believe in the beauty of their dreams. I believe I am one of those people.\"</i> <br> <br>\n\nIt's easy to look at Lester Pearson's resume and assume that his time in the Prime Minister's Office was inevitable, at least it seemed that way  until he led the Liberals to their worst-ever showing in an election in 1958, making a sworn enemy out of John Diefenbaker in the process. <br> <br>\n\nHumiliated but idealistic as ever, Pearson proved to be effective at rebuilding the Liberals into a political force. Thanks to his efforts and economic downturn, the Liberals were able to rally to reduce the Tory government to a minority in the election of 1962 before ushering a vote of 'no-confidence' against the Tories and being swept into power based on \"60 days of decision\" in 1963, promising a decisive and caring government. <br> <br> Pearson fell 4 seats short of a majority government in 1963 and his government has been equally as error-prone as his predecessors. He sees the writing on the wall, the Liberals need their majority to govern, for him to enact his vision of Canada. <br> <br>\n\nStill, it's far too early to make that decision, and  Pearson will govern for a time he deems necessary before playing his cards.",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/oKU5soM.jpeg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50000,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Diefenbaker",
+            "election": 20,
+            "party": "Progressive Conservative Party of Canada",
+            "state": "Prince Albert",
+            "priority": 1,
+            "description": "<div style='overflow-y:scroll;height:200px;'> <i> \"I've lived history. I've made history, and I know I'll have my place in history. That's not egoism.\"</i> <br> <br> John Diefenbaker is ready for another round. The most colourful and combative Prime Minister in Canadian history, the voice of Canada, the man who brought the largest majority to Parliament, this man has witnessed his standing be reduced to a shadow of his previous glory. <br> <br> While still the leader of the Progressive Conservatives, Diefenbaker's position in the party is divisive, with many pushing to remove him as leader. Interparty woes won't be the only challenge Diefenbaker must wrestle with, clever campaigning from the Liberals has his name connotated with the economic woes of his time and his shrieking indecision on foreign policy. Beyond that, fatigue has set in, a younger generation ready to become a political force sees him as a relic of the past. <br> <br> Despite all of that, the electoral defeats, the scandals, the malaise, Diefenbaker is still a threat to Mr. Pearson's standing, poised to serve as an effective leader of the opposition. Diefenbaker will push any button needed to get at those he holds at fault for his disgraced stature. <br> <br> John Diefenbaker <i>needs</i> to redeem himself and will stop at nothing to do so.\n",
+            "color_hex": "#98a9f5",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://bcheritagefairsalumni.wordpress.com/wp-content/uploads/2015/01/lbp3.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50001,
+        "fields": {
+            "first_name": "Réal ",
+            "last_name": "Caouette ",
+            "election": 20,
+            "party": "Ralliement créditiste",
+            "state": "Villeneuve",
+            "priority": 1,
+            "description": "<i> \"I note however that the dominion government shows very little gratitude to the province of Quebec.\"</i> <br> <br>",
+            "color_hex": "#90ee90",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/pgfn7fa.jpeg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50002,
+        "fields": {
+            "first_name": "Tommy",
+            "last_name": "Douglas",
+            "election": 20,
+            "party": "Turbo Team",
+            "state": "Burnaby—Coquitlam",
+            "priority": 1,
+            "description": "<i> \"My dream is for the world to look up and to see Canada like a little jewel sitting at the top of the continent.\"</i> <br> <br>",
+            "color_hex": "#f4a460",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/5mkmkDa.jpeg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = []
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001,
+            50000,
+            50001,
+            50002
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001,
+            50000,
+            50001,
+            50002
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#db7474",
+    "windowColor": "#9fb0fe",
+    "containerColor": "#9fb0fe",
+    "innerWindowColor": "#db7474",
+    "bannerImageUrl": "https://i.imgur.com/wXIb2oF.png",
+    "backgroundImageUrl": "https://cdn.vectorstock.com/i/2000v/86/81/art-deco-pattern-black-white-background-vector-31018681.avif",
+    "endingTextColor": "#000000",
+    "customQuote": "\"The only failures are those who fail to try.\" - Lester Pearson"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>"The only failures are those who fail to try." - Lester Pearson</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#db7474";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#9fb0fe";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#9fb0fe";
+
+document.getElementById("header").src = "https://i.imgur.com/wXIb2oF.png";
+
+document.body.background = "https://cdn.vectorstock.com/i/2000v/86/81/art-deco-pattern-black-white-background-vector-31018681.avif";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#db7474!important;}</style>";
+
+//#endcode
