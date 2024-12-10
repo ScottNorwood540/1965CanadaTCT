@@ -1,3 +1,28 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 30,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
@@ -27,31 +52,6 @@ campaignTrail_temp.temp_election_list = [
 
 campaignTrail_temp.credits = "Scott Norwood and Icewagner (more credits to come)"
 
-campaignTrail_temp.global_parameter_json = [
-    {
-        "model": "campaign_trail.global_parameter",
-        "pk": 1,
-        "fields": {
-            "vote_variable": 1.125,
-            "max_swing": 0.12,
-            "start_point": 0.94,
-            "candidate_issue_weight": 10,
-            "running_mate_issue_weight": 3,
-            "issue_stance_1_max": -0.71,
-            "issue_stance_2_max": -0.3,
-            "issue_stance_3_max": -0.125,
-            "issue_stance_4_max": 0.125,
-            "issue_stance_5_max": 0.3,
-            "issue_stance_6_max": 0.71,
-            "global_variance": 0.01,
-            "state_variance": 0.005,
-            "question_count": 30,
-            "default_map_color_hex": "#C9C9C9",
-            "no_state_map_color_hex": "#999999"
-        }
-    }
-]
-
 campaignTrail_temp.candidate_json = [
     {
         "model": "campaign_trail.candidate",
@@ -63,7 +63,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Liberal Party of Canada",
             "state": "Algoma East",
             "priority": 1,
-            "description": "<div style='overflow-y:scroll;height:200px;'> <i> \"The future belongs to those who believe in the beauty of their dreams. I believe I am one of those people.\"</i> <br> <br>\n\nIt's easy to look at Lester Pearson's resume and assume that his time in the Prime Minister's Office was inevitable, at least it seemed that way  until he led the Liberals to their worst-ever showing in an election in 1958, making a sworn enemy out of John Diefenbaker in the process. <br> <br>\n\nHumiliated but idealistic as ever, Pearson proved to be effective at rebuilding the Liberals into a political force. Thanks to his efforts and economic downturn, the Liberals were able to rally to reduce the Tory government to a minority in the election of 1962 before ushering a vote of 'no-confidence' against the Tories and being swept into power based on \"60 days of decision\" in 1963, promising a decisive and caring government. <br> <br> Pearson fell 4 seats short of a majority government in 1963 and his government has been equally as error-prone as his predecessors. He sees the writing on the wall, the Liberals need their majority to govern, for him to enact his vision of Canada. <br> <br>\n\nStill, it's far too early to make that decision, and  Pearson will govern for a time he deems necessary before playing his cards.",
+            "description": "<div style='overflow-y:scroll;height:200px;'> <i> \"The future belongs to those who believe in the beauty of their dreams. I believe I am one of those people.\"</i> <br> <br>\n\nIt's easy to look at Lester Pearson's resume and assume that his time in the Prime Minister's Office was inevitable, at least it seemed that way until he led the Liberals to their worst-ever showing in an election in 1958, making a sworn enemy out of John Diefenbaker in the process.\n <br> <br>\n\nHumiliated by defeat yet idealistic as ever, Pearson proved to be effective at rebuilding the Liberals into a political force. Thanks to his efforts and economic downturn, the Liberals were able to rally together to reduce the Tory government to a minority in 1962 before ushering a vote of 'no-confidence' against the Tories and being swept into power based on \"60 days of decision\" in 1963, promising a decisive and caring government.\n<br> <br> Pearson fell 4 seats short of a majority government in 1963 and his government has proven to be equally as error-prone as his predecessors. He sees the writing on the wall, the Liberals need their majority to govern if he wishes to enact his vision of Canada.\n<br> <br>\n\nStill, it's far too early to make that decision, and Pearson will govern for a time he deems necessary before playing his cards.\n\n\n\n",
             "color_hex": "#ff0000",
             "secondary_color_hex": null,
             "is_active": 1,
@@ -86,7 +86,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Progressive Conservative Party of Canada",
             "state": "Prince Albert",
             "priority": 1,
-            "description": "<div style='overflow-y:scroll;height:200px;'> <i> \"I've lived history. I've made history, and I know I'll have my place in history. That's not egoism.\"</i> <br> <br> John Diefenbaker is ready for another round. The most colourful and combative Prime Minister in Canadian history, the voice of Canada, the man who secured the largest majority in parliamentary history only six short years ago. In the years since, this political giant has witnessed his standing and power be reduced to a mere shadow of its previous glory. <br> <br> While still the leader of the Progressive Conservatives, Diefenbaker's position in the party seems increasingly uncertain, with many pushing to remove him as leader. Interparty woes won't be the only challenge Diefenbaker will have to wrestle with, as clever campaigning from the Liberals in the last election have tied his name with the economic woes of his time and his shrieking indecision on foreign policy in the minds of the Canadian people. Above all, fatigue has begun to set in, seen as an obstacle and relic of the past by a growing younger generation of the party, hungry for power and seeking to establish themselves as a political force. <br> <br> Despite all of this, the electoral defeats, the scandals, the in-fighting, Diefenbaker still poses a major threat to Mr. Pearson's standing, poised to serve as an effective leader of the opposition. Diefenbaker will push any button needed to get at those he holds at fault for his disgraced stature. <br> <br> John Diefenbaker <i>needs</i> to redeem himself and will stop at nothing to do so.\n",
+            "description": "<div style='overflow-y:scroll;height:200px;'> <i> \"I've lived history. I've made history, and I know I'll have my place in history. That's not egoism.\"</i> <br> <br> John Diefenbaker is ready for another round. The most colourful and combative Prime Minister in Canadian history, the voice of Canada, the man who secured the largest majority in parliamentary history only six short years ago. In the years since, this political giant has witnessed his standing and power be reduced to a mere shadow of its previous glory.\n <br> <br> While still the leader of the Progressive Conservatives, Diefenbaker's position in the party seems increasingly uncertain, with many pushing to remove him as leader. Interparty woes won't be the only challenge Diefenbaker will have to wrestle with, as clever campaigning from the Liberals in the last election have tied his name with the economic woes of his time and his shrieking indecision on foreign policy in the minds of the Canadian people. Above all, fatigue has begun to set in, seen as an obstacle and relic of the past by a growing younger generation of the party, hungry for power and seeking to establish themselves as a political force. <br> <br> Despite all of this, the electoral defeats, the scandals, the in-fighting, Diefenbaker still poses a major threat to Mr. Pearson's standing, poised to serve as an effective leader of the opposition. Diefenbaker will push any button needed to get at those he holds at fault for his disgraced stature.\n<br> <br> John Diefenbaker <i>needs</i> to redeem himself and will stop at nothing to do so.\n",
             "color_hex": "#98a9f5",
             "secondary_color_hex": null,
             "is_active": 1,
@@ -200,10 +200,11 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#9fb0fe";
 
-document.getElementById("header").src = "https://i.imgur.com/wXIb2oF.png";
+document.getElementById("header").src = "https://i.imgur.com/iqo9g42.png";
 
 document.body.background = "https://cdn.vectorstock.com/i/2000v/86/81/art-deco-pattern-black-white-background-vector-31018681.avif";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#db7474!important;}</style>";
 
 //#endcode
+
